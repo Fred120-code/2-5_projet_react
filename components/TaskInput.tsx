@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const TaskInput = () => {
   const [task, setTask] = useState("");
-  console.log(task);
   return (
     <div className="flex justify-center items-center gap-6">
       <div className="flex justify-center flex-col gap-1">
