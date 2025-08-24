@@ -9,6 +9,7 @@ const TaskInput = () => {
           type="text"
           placeholder="Type here"
           className="input input-primary"
+          value={task}
           onChange={(e)=>{
             setTask(e.target.value)
           }}
