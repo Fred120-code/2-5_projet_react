@@ -12,7 +12,7 @@ function App() {
   return (
     <div className=" w-[400px] flex justify-center items-center flex-col m-60 gap-6">
       <TaskInput tasks={tasks} setTasks={setTasks}/>
-      <TaskList tasks={tasks}  />
+      <TaskList tasks={tasks} setTasks={setTasks} />
     </div>
   );
 }
