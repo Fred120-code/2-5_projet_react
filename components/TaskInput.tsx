@@ -28,6 +28,8 @@ const TaskInput = ({ tasks, setTasks }: TaskListProps) => {
     setTasks(newTasks), setName("");
     console.log(newTasks);
   }
+
+  
   return (
     <div className="flex justify-center items-center gap-6">
       <div className="flex justify-center flex-col gap-1">
